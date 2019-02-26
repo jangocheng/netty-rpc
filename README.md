@@ -63,6 +63,3 @@ RPC的目标就是要2~8这些步骤都封装起来，让用户对这些细节�
 ├── pom.xml                                   // parent pom               
 ├── README.md               
 ```
-## 参考
-- [谈谈如何使用Netty开发实现高性能的RPC服务器](https://www.cnblogs.com/jietang/p/5615681.html)
-- [一个轻量级分布式RPC框架--NettyRpc](https://www.cnblogs.com/luxiaoxun/p/5272384.html)

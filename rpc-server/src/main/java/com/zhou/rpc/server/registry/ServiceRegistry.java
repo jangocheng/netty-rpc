@@ -123,10 +123,10 @@ public class ServiceRegistry {
     public static void main(String[] args) throws IOException {
         ServiceRegistry serviceRegistry = new ServiceRegistry("localhost:2181");
         serviceRegistry.connectServer();
-        serviceRegistry.registerService("localhost:21881", "com.jyxmust.UserService");
+        serviceRegistry.registerService("localhost:21881", "com.zhou.UserService");
         System.in.read();
         Map<String, String> map = new HashMap<>();
-        map.put("name", "jyxmust");
+        map.put("name", "zhou");
         System.out.println(map.entrySet());
     }
 }
